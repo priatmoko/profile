@@ -1,0 +1,20 @@
+# ===================================
+#  Form Field Definitions
+# ===================================
+
+fields:
+    name:
+        label: Name
+        type: text
+        required: true
+    description:
+        label: Description
+        type: textarea
+        required: true
+    ends_at:
+        label: Ends At
+        type: datepicker
+        required: true
+    team_id:
+        label: Team
+        type: dropdown

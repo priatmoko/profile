@@ -1,0 +1,6 @@
+1.0.1: First version of profile
+1.0.2:
+    - Initialize plugin.
+    - create_projects_table.php
+    - create_teams_table.php
+    - add_team_to_user.php

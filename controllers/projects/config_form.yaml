@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Project
+
+# Model Form Field configuration
+form: $/masterpis/profile/models/project/fields.yaml
+
+# Model Class name
+modelClass: Masterpis\Profile\Models\Project
+
+# Default redirect location
+defaultRedirect: masterpis/profile/projects
+
+# Create page
+create:
+    title: Create Project
+    redirect: masterpis/profile/projects/update/:id
+    redirectClose: masterpis/profile/projects
+
+# Update page
+update:
+    title: Edit Project
+    redirect: masterpis/profile/projects
+    redirectClose: masterpis/profile/projects
+
+# Preview page
+preview:
+    title: Preview Project
